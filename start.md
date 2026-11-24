@@ -21,6 +21,6 @@ A few rooms made of text. Every page here is an ordinary Markdown file. Follow a
 
 - [Foo](Lorem.md) 
 
-The Markdown button in BonBon shows the source. The page arrows follow a short tour; the links allow detours.
+The Markdown button in BonBon shows the source. The page arrows follow a short tour; the links allow detours. Saved Markdown files in the sandbox folder on Jonesy publish automatically; reload in BonBon to see the change.
 
-[Edit this page on GitHub](https://github.com/merlinmann/bonbon-sandbox/edit/main/start.md)
+[View this page on GitHub](https://github.com/merlinmann/bonbon-sandbox/blob/main/start.md)

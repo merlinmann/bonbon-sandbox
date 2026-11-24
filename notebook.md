@@ -24,5 +24,3 @@ The repo is public. This page is for experiments intended to be public.
 Edit this Markdown file in the bonbon-sandbox folder on Jonesy and save. The publisher sends the changed file to the live site and GitHub automatically. Reload this page in BonBon after saving.
 
 [Back to the sandbox](start.md)
-
-Live publication check.
