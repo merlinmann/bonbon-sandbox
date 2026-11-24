@@ -22,7 +22,7 @@ A few rooms made of text. Every page here is an ordinary Markdown file. Follow a
 
 ## Bonk
 
-- [Foo](Lorem.md) 
+- [Foo](new-page-2026-11-23_22-02-11.md) 
 
 ----
 
