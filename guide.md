@@ -60,7 +60,7 @@ Every field is optional. Names are case-sensitive: `pubDate` and `urlNext` use c
 | `urlNext` | Gives the next page’s address. | Supplies the next-page arrow. |
 | `rightMarginImage` | Gives an image’s address. | Places an image at the upper right, with text wrapping around it. |
 
-This is a reference block containing every field. The date and `example.com` URLs are examples, not required defaults. Delete optional lines that are not needed; replace example URLs before using them.
+This is a reference block containing every field. The date is an example, not a required default. The title-link and image fields are commented out so pasting the block does not activate nonexistent URLs. Replace those URLs with real addresses and remove the leading `#` only when those features are wanted.
 
 ```yaml
 ---
@@ -68,10 +68,10 @@ title: "My Page"
 description: "A short description of this page."
 author: "Merlin Mann"
 pubDate: "Mon, 23 Nov 2026 12:00:00 GMT"
-link: "https://example.com/original-page"
+# link: "https://example.com/original-page"
 urlPrev: "https://bucket.contiguous.me/bonbon-sandbox/start.md"
 urlNext: "https://bucket.contiguous.me/bonbon-sandbox/reading-room.md"
-rightMarginImage: "https://example.com/image.png"
+# rightMarginImage: "https://example.com/image.png"
 ---
 ```
 
@@ -142,6 +142,8 @@ Use a literal Markdown destination instead:
 ```
 
 The special `title` plus `link` behavior is handled by BonBon itself. It does not mean variables work in arbitrary link destinations.
+
+The custom-variable examples require both parts: the YAML definitions at the top and the matching expressions in the body. Copying only `{{page.subtitle}}` does not create a subtitle value. Typora displays BonBon expressions literally; use BonBon to see their expanded values.
 
 ## YAML Syntax That Matters Here
 
