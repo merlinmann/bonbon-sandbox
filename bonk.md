@@ -1,3 +1,10 @@
+---
+title: "No One Man"
+description: "A little Markdown web to poke around in."
+author: "Codex"
+urlNext: "https://bucket.contiguous.me/bonbon-sandbox/reading-room.md"
+---
+
 #  No one man
 
 
