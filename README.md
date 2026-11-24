@@ -8,6 +8,8 @@ Linked Markdown pages: a reading sample, a short branching story, an editable no
 
 [Read the complete writing guide](guide.md) for all YAML fields, custom variables, copyable templates, and the publishing workflow.
 
+[All pages](pages.md) lists new Markdown files automatically.
+
 For the desktop BonBon app, paste this address into its address bar:
 
 ```text

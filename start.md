@@ -10,6 +10,8 @@ Prepared by Codex for Merlin Mann
 
 A few rooms made of text. Every page here is an ordinary Markdown file. Follow a link, try a different reading style, or change the words and see what happens.
 
+[All pages, including new additions](pages.md)
+
 ## Pick Something to Try
 
 - [The reading room](reading-room.md): headings, lists, a quotation, a table, and code. Try the **A** button to change how the same words look.

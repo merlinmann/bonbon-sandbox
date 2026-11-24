@@ -43,7 +43,7 @@ The file’s name determines its address. A file named `new-page.md` appears at:
 https://bucket.contiguous.me/bonbon-sandbox/new-page.md
 ```
 
-Changing `title` does not rename the file or change its URL. Adding a page does not automatically add a link to it on the start page.
+Changing `title` does not rename the file or change its URL. New files appear automatically in [All pages](pages.md), linked near the top of the start page. The start page’s other links are hand-edited.
 
 ## All Eight Documented Page Fields
 
@@ -256,6 +256,8 @@ Removing a local file does not remove its published copy. Renaming creates a new
 
 The local folder is the normal editing location. GitHub edits do not download into it through this publisher. If the same file changes on GitHub and locally, the publisher can stop that publication to preserve the competing edit; Codex handles reconciliation.
 
+`pages.md` is the generated page index. The publisher updates it when files are added or removed; edit the individual pages rather than this index. Creating a new file does not replace the content of `start.md` or another page already open in BonBon. Follow its link from All pages, or open its own address.
+
 ## When Something Looks Wrong
 
 | Symptom | Likely check |
@@ -264,7 +266,7 @@ The local folder is the normal editing location. GitHub edits do not download in
 | The tab title changed, but the heading did not. | A literal heading stays literal. Use `# {{page.title}}` to follow the YAML title. |
 | A variable remains visible. | Check the exact key, its spelling and value type, and whether the expression is inside code. |
 | A link fails. | Match the filename and its capitalization, including the `.md` suffix. |
-| A new page is not listed on the start page. | Publishing a file does not add navigation links. Add an ordinary Markdown link where it belongs. |
+| A new page is not listed among the start page’s examples. | Open All pages near the top of the start page. That list updates automatically; the example links are hand-edited. |
 | A picture does not appear. | Check its public URL. Local image files are outside the Markdown publisher’s scope. |
 | A saved edit never appears. | Jonesy may be asleep, connectivity may be unavailable, or publication may have stopped on an error or competing GitHub edit. Codex can inspect the publisher and complete the repair. |
 
