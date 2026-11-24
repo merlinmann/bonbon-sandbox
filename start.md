@@ -16,6 +16,7 @@ A few rooms made of text. Every page here is an ordinary Markdown file. Follow a
 - [The suspicious hallway](hallway.md): a very small story with two doors.
 - [The notebook](notebook.md): a page waiting for an experiment.
 - [Under the hood](under-the-hood.md): how these pages fit together.
+- [The writing guide](guide.md): all YAML fields, custom variables, templates, and publishing.
 
 ## Bonk
 
