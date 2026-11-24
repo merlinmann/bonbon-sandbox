@@ -1,8 +1,8 @@
 ---
 title: "The Biscuit Department"
 author: "Codex"
-urlPrev: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/meeting.md"
-urlNext: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/notebook.md"
+urlPrev: "https://bucket.contiguous.me/bonbon-sandbox/meeting.md"
+urlNext: "https://bucket.contiguous.me/bonbon-sandbox/notebook.md"
 ---
 # {{page.title}}
 

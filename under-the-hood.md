@@ -1,8 +1,8 @@
 ---
 title: "Under the Hood"
 author: "Codex"
-urlPrev: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/notebook.md"
-urlNext: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/start.md"
+urlPrev: "https://bucket.contiguous.me/bonbon-sandbox/notebook.md"
+urlNext: "https://bucket.contiguous.me/bonbon-sandbox/start.md"
 ---
 # {{page.title}}
 
@@ -10,7 +10,7 @@ Prepared by Codex for Merlin Mann
 
 ## What Is Here
 
-Seven Markdown pages, hosted as raw files in a public GitHub repository. No build, server, account with another host, or running Mac is needed to read them. BonBon supplies the typography.
+Markdown pages hosted on Tiborg, with a public GitHub copy. No build is needed. BonBon supplies the typography. Published pages remain readable when Jonesy is asleep.
 
 Links between the pages use relative paths. Each page’s front matter supplies its tab title and explicit previous/next addresses. The heading uses BonBon’s page-title macro.
 
@@ -18,11 +18,11 @@ Links between the pages use relative paths. Each page’s front matter supplies 
 
 The [notebook](notebook.md) is a convenient starting point. Changing `title` changes both the tab title and the heading in BonBon. Ordinary Markdown links can lead to new pages.
 
-GitHub’s own preview does not expand BonBon’s macros. Use BonBon to see the rendered result. GitHub raw URLs here track `main`, so committed edits appear at the same addresses after the cache refreshes.
+GitHub’s own preview does not expand BonBon’s macros. Use BonBon to see the rendered result. A small save publisher on Jonesy checks this folder every two seconds and publishes a change after two matching reads. The live server disables caching. Reloading in BonBon retrieves the current published page.
 
 ## What This Setup Does Not Include
 
-There is no site search, live-update socket, or calendar. BonBon looks for a site’s table of contents at the domain root; a folder on `raw.githubusercontent.com` cannot supply that root file. Explicit page arrows and ordinary links work without it.
+There is no site search, live-update socket, or calendar. Saving publishes automatically; a page already open in BonBon still needs a reload. Explicit page arrows and ordinary links provide navigation.
 
 ## References
 

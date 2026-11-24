@@ -1,8 +1,8 @@
 ---
 title: "The Suspicious Hallway"
 author: "Codex"
-urlPrev: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/reading-room.md"
-urlNext: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/notebook.md"
+urlPrev: "https://bucket.contiguous.me/bonbon-sandbox/reading-room.md"
+urlNext: "https://bucket.contiguous.me/bonbon-sandbox/notebook.md"
 ---
 # {{page.title}}
 

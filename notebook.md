@@ -2,8 +2,8 @@
 title: "The Notebook"
 description: "A blank place to begin."
 author: "Codex"
-urlPrev: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/hallway.md"
-urlNext: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/under-the-hood.md"
+urlPrev: "https://bucket.contiguous.me/bonbon-sandbox/hallway.md"
+urlNext: "https://bucket.contiguous.me/bonbon-sandbox/under-the-hood.md"
 ---
 # {{page.title}}
 
@@ -21,6 +21,6 @@ This sentence is ready to be replaced.
 
 The repo is public. This page is for experiments intended to be public.
 
-[Edit the notebook on GitHub](https://github.com/merlinmann/bonbon-sandbox/edit/main/notebook.md). Commit the change there, then reload this page in BonBon. GitHub’s raw-file cache can take a few minutes to catch up.
+Edit this Markdown file in the bonbon-sandbox folder on Jonesy and save. The publisher sends the changed file to the live site and GitHub automatically. Reload this page in BonBon after saving.
 
 [Back to the sandbox](start.md)

@@ -2,7 +2,7 @@
 title: "The BonBon Sandbox"
 description: "A little Markdown web to poke around in."
 author: "Codex"
-urlNext: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/reading-room.md"
+urlNext: "https://bucket.contiguous.me/bonbon-sandbox/reading-room.md"
 ---
 # {{page.title}}
 

@@ -1,8 +1,8 @@
 ---
 title: "The Meeting"
 author: "Codex"
-urlPrev: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/hallway.md"
-urlNext: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/biscuits.md"
+urlPrev: "https://bucket.contiguous.me/bonbon-sandbox/hallway.md"
+urlNext: "https://bucket.contiguous.me/bonbon-sandbox/biscuits.md"
 ---
 # {{page.title}}
 

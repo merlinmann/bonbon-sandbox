@@ -2,18 +2,18 @@
 
 Prepared by Codex for Merlin Mann
 
-[Open the sandbox in BonBon’s web demo](https://demo.bonbonweb.org/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmerlinmann%2Fbonbon-sandbox%2Fmain%2Fstart.md).
+[Open the sandbox in BonBon’s web demo](https://demo.bonbonweb.org/?url=https%3A%2F%2Fbucket.contiguous.me%2Fbonbon-sandbox%2Fstart.md).
 
-Seven linked Markdown pages: a reading sample, a short branching story, an editable notebook, and a brief explanation. The sample prose is by Codex, not Merlin.
+Linked Markdown pages: a reading sample, a short branching story, an editable notebook, and Merlin’s experiments. The starter prose is by Codex; Lorem.md and the Bonk section are Merlin’s additions.
 
 For the desktop BonBon app, paste this address into its address bar:
 
 ```text
-https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/start.md
+https://bucket.contiguous.me/bonbon-sandbox/start.md
 ```
 
-[Edit the notebook](https://github.com/merlinmann/bonbon-sandbox/edit/main/notebook.md), commit the change, and reload it in BonBon. Raw-file caching can delay updates by a few minutes. Everything committed to this repository is public.
+Save a Markdown file in the bonbon-sandbox folder on Jonesy, then reload the page in BonBon. The save publisher sends new and changed top-level `.md` files to the live site and this GitHub repository after the file settles. Everything in those files is public. Supporting files, hidden files, symlinks, and subfolders are excluded.
 
-The pages use explicit previous/next addresses because GitHub’s raw-file domain does not provide a repository-specific root table of contents. No separate hosting or build is required.
+The live site runs on Tiborg and serves Markdown with caching disabled. Published pages remain available when Jonesy sleeps; new saves publish while Jonesy is awake and connected. Removing a local file does not delete a published page. GitHub is a published copy; local editing is the usual workflow.
 
 Based on [BonBon’s documentation](https://github.com/scripting/bonBon/tree/main/docs). This repository contains original sample pages; it is not a fork of the BonBon application.

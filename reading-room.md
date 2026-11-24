@@ -1,8 +1,8 @@
 ---
 title: "The Reading Room"
 author: "Codex"
-urlPrev: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/start.md"
-urlNext: "https://raw.githubusercontent.com/merlinmann/bonbon-sandbox/main/hallway.md"
+urlPrev: "https://bucket.contiguous.me/bonbon-sandbox/start.md"
+urlNext: "https://bucket.contiguous.me/bonbon-sandbox/hallway.md"
 ---
 # {{page.title}}
 
